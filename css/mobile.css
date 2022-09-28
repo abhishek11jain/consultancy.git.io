@@ -1,0 +1,163 @@
+@media only screen and (max-width:768px)
+{
+    html {
+        font-size: calc(14px + 6 * ((100vw - 320px) / 680));
+    }
+
+    #page-loader .loader{
+        position: absolute;
+        top: 25%;
+        left: 3%;
+    }
+
+    .modal-image{
+        height: 30ch;
+        width: 100%;
+    }
+
+
+    /* Padding Code */
+    #project-section,
+    #about-section,
+    #service-section,
+    #testimonial-slider,
+    #contact-section .contact-form,
+    #about-page-section,
+    #director-message-section,
+    #service-page-section,
+    #particular-blog-section,
+    #contact-page-section,
+    #contact-page-section .form-group,
+    #contact-section .form-group,
+    #service-detail-section,
+    #service-detail-section .form-group
+    {
+        padding: 20px 0px 20px 0px !important;
+    }
+
+    #service-detail-section .contact-for-service{
+        margin-top: 10px;
+    }
+    
+    /* Topbar section start */
+    #top-bar-section img {
+        height: 60px;
+    }
+    #top-bar-section .icon {
+        position:absolute;
+        margin:0;
+        padding:0;
+        display:flex;
+        left: 3%;
+        top: 24%;
+    }
+    #top-bar-section .icon a {
+        width:25px;
+        height:25px;
+        margin:0 2px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    #top-bar-section i{
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+        text-align: center;
+        border-radius: 50% !important;
+        color: rgb(202, 3, 3);
+        background: linear-gradient(0deg, #fff, #ddd);
+        transition: all 0.8s;
+    }
+    #top-bar-section .fa-icon{
+        font-size: 10px
+    }
+
+    
+    /* ============================ */
+    /* Navbar Section Start */
+    #navbar-section li a {
+        font-size: 10px;
+    }
+    #navbar-section .btn-secondary{
+        font-size: 10px;
+        margin-top: 4px;
+    }
+
+
+    /* ============================ */
+    /* Slider Section Start */
+    header .item .cover .header-content h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    header .item .cover .header-content h1{
+        font-size: 20px;
+    }
+    header .item .cover .header-content{
+        padding: 15px;
+    }
+    header .item .cover .header-content .line{
+        border: 5px solid #fff !important;
+    }
+    header .item{
+        height: 40vh;
+    }
+
+
+    /* ============================ */
+    /* About Section Start */
+    #about-section .none{
+        display: none;
+    }
+    #about-section .about-grid-content{
+        margin-top: 10px;
+    }
+
+
+    /* ============================ */
+    /* Service Section Start */
+    #service-section{
+        padding: 1em;
+    }
+
+    
+    /* ============================ */
+    /* Projects Section Start */
+    #project-section .heading h3{
+        font-size: 15px;
+    }
+    #project-section .button-a{
+        font-size: 7px
+    }
+    #project-section .projects p{
+        text-align: justify;
+    }
+
+
+
+    /* ============================ */
+    /* About page Start */
+    #about-page-section .about p{
+        text-align: justify;
+    }
+    #director-message-section .image{
+        width: auto;
+        margin: 0%;
+    }
+
+
+    
+    /* ============================= */
+    /* BLoags page section start */
+    #blogs-section .blogs{
+        padding: 1em;
+    }
+    #blogs-section h3 {
+        font-size: 1em;
+    }
+
+
+    #service-page-section h3.heading-title{
+        margin-bottom: 10px;
+    }
+}
